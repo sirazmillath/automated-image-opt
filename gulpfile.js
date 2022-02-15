@@ -3,7 +3,7 @@
 const { src, dest } = require("gulp");
 const sharpResponsive = require("gulp-sharp-responsive");
 
-const img = () => src("../img-source/*.jpg")
+const img = () => src("img-source/*.jpg")
   .pipe(sharpResponsive({
     formats: [
       // jpeg
